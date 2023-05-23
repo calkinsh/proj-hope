@@ -1,0 +1,2882 @@
+{
+    "counts": {
+        "BIOSPECIMEN|ANALYTE": 1,
+        "BIOSPECIMEN|ANATOMY_SITE": 1,
+        "BIOSPECIMEN|COMPOSITION": 0,
+        "BIOSPECIMEN|CONCENTRATION_MG_PER_ML": 0,
+        "BIOSPECIMEN|EVENT_AGE_DAYS": 3,
+        "BIOSPECIMEN|ID": 30,
+        "BIOSPECIMEN|SAMPLE_PROCUREMENT": 1,
+        "BIOSPECIMEN|SHIPMENT_DATE": 0,
+        "BIOSPECIMEN|SHIPMENT_ORIGIN": 0,
+        "BIOSPECIMEN|SPATIAL_DESCRIPTOR": 0,
+        "BIOSPECIMEN|TISSUE_TYPE": 1,
+        "BIOSPECIMEN|TUMOR_DESCRIPTOR": 1,
+        "BIOSPECIMEN|VOLUME_UL": 0,
+        "FAMILY|ID": 0,
+        "GENOMIC_FILE|HARMONIZED": 1,
+        "GENOMIC_FILE|ID": 12400,
+        "GENOMIC_FILE|REFERENCE_GENOME": 1,
+        "GENOMIC_FILE|URL_LIST": 12400,
+        "PARTICIPANT|ENROLLMENT_AGE_DAYS": 0,
+        "PARTICIPANT|ETHNICITY": 0,
+        "PARTICIPANT|GENDER": 0,
+        "PARTICIPANT|ID": 0,
+        "PARTICIPANT|RACE": 0,
+        "PARTICIPANT|SPECIES": 0,
+        "SEQUENCING|ID": 31,
+        "SEQUENCING|INSTRUMENT": 0,
+        "SEQUENCING|LIBRARY_NAME": 2,
+        "SEQUENCING|PAIRED_END": 1,
+        "SEQUENCING|PLATFORM": 1,
+        "SEQUENCING|STRATEGY": 1
+    },
+    "files_validated": [
+        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/biospecimen.tsv",
+        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv",
+        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv"
+    ],
+    "validation": [
+        {
+            "description": "Each FAMILY|ID links to at least 1 PARTICIPANT|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "FAMILY|ID",
+                "to": "PARTICIPANT|ID"
+            },
+            "is_applicable": false,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": [
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893195"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893195\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "841173"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"841173\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "900650"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"900650\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/biospecimen.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "841171"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"841171\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893181"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893181\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893193"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893193\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "841147"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"841147\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893182"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893182\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "862551"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"862551\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893192"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893192\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "479109"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"479109\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "862547"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"862547\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "900656"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"900656\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "841145"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"841145\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "862549"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"862549\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893196"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893196\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "841167"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"841167\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893188"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893188\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "901071"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"901071\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/biospecimen.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893187"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893187\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "544767"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"544767\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "900655"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"900655\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/biospecimen.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "901070"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"901070\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893185"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893185\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "862550"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"862550\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "841169"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"841169\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893189"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893189\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "900661"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"900661\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893184"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893184\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "841151"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"841151\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|ID",
+                "to": "PARTICIPANT|ID"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each PARTICIPANT|ID links to at least 1 BIOSPECIMEN|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "PARTICIPANT|ID",
+                "to": "BIOSPECIMEN|ID"
+            },
+            "is_applicable": false,
+            "type": "relationship"
+        },
+        {
+            "description": "Each GENOMIC_FILE|ID links to exactly 1 SEQUENCING|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "GENOMIC_FILE|ID",
+                "to": "SEQUENCING|ID"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each SEQUENCING|ID links to at least 1 GENOMIC_FILE|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": [
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "SEQUENCING|ID",
+                                        "Smart Seq2-841149"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"Smart Seq2-841149\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv"
+                                    ]
+                                },
+                                "to": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "SEQUENCING|ID",
+                "to": "GENOMIC_FILE|ID"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each GENOMIC_FILE|ID links to exactly 1 BIOSPECIMEN|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "GENOMIC_FILE|ID",
+                "to": "BIOSPECIMEN|ID"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|ID links to at least 1 GENOMIC_FILE|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|ID",
+                "to": "GENOMIC_FILE|ID"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each PARTICIPANT|GENDER links to at least 1 PARTICIPANT|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "PARTICIPANT|GENDER",
+                "to": "PARTICIPANT|ID"
+            },
+            "is_applicable": false,
+            "type": "relationship"
+        },
+        {
+            "description": "Each PARTICIPANT|ID links to at most 1 PARTICIPANT|GENDER",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "PARTICIPANT|ID",
+                "to": "PARTICIPANT|GENDER"
+            },
+            "is_applicable": false,
+            "type": "relationship"
+        },
+        {
+            "description": "Each PARTICIPANT|ETHNICITY links to at least 1 PARTICIPANT|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "PARTICIPANT|ETHNICITY",
+                "to": "PARTICIPANT|ID"
+            },
+            "is_applicable": false,
+            "type": "relationship"
+        },
+        {
+            "description": "Each PARTICIPANT|ID links to at most 1 PARTICIPANT|ETHNICITY",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "PARTICIPANT|ID",
+                "to": "PARTICIPANT|ETHNICITY"
+            },
+            "is_applicable": false,
+            "type": "relationship"
+        },
+        {
+            "description": "Each PARTICIPANT|RACE links to at least 1 PARTICIPANT|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "PARTICIPANT|RACE",
+                "to": "PARTICIPANT|ID"
+            },
+            "is_applicable": false,
+            "type": "relationship"
+        },
+        {
+            "description": "Each PARTICIPANT|ID links to at most 1 PARTICIPANT|RACE",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "PARTICIPANT|ID",
+                "to": "PARTICIPANT|RACE"
+            },
+            "is_applicable": false,
+            "type": "relationship"
+        },
+        {
+            "description": "Each PARTICIPANT|SPECIES links to at least 1 PARTICIPANT|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "PARTICIPANT|SPECIES",
+                "to": "PARTICIPANT|ID"
+            },
+            "is_applicable": false,
+            "type": "relationship"
+        },
+        {
+            "description": "Each PARTICIPANT|ID links to at most 1 PARTICIPANT|SPECIES",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "PARTICIPANT|ID",
+                "to": "PARTICIPANT|SPECIES"
+            },
+            "is_applicable": false,
+            "type": "relationship"
+        },
+        {
+            "description": "Each PARTICIPANT|ENROLLMENT_AGE_DAYS links to at least 1 PARTICIPANT|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "PARTICIPANT|ENROLLMENT_AGE_DAYS",
+                "to": "PARTICIPANT|ID"
+            },
+            "is_applicable": false,
+            "type": "relationship"
+        },
+        {
+            "description": "Each PARTICIPANT|ID links to at most 1 PARTICIPANT|ENROLLMENT_AGE_DAYS",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "PARTICIPANT|ID",
+                "to": "PARTICIPANT|ENROLLMENT_AGE_DAYS"
+            },
+            "is_applicable": false,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|ANALYTE links to at least 1 BIOSPECIMEN|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|ANALYTE",
+                "to": "BIOSPECIMEN|ID"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": [
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893195"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893195\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "841173"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"841173\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "841171"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"841171\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893181"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893181\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893193"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893193\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "841147"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"841147\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893182"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893182\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "862551"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"862551\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893192"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893192\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "479109"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"479109\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "862547"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"862547\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "900656"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"900656\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "841145"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"841145\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "862549"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"862549\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893196"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893196\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "841167"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"841167\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893188"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893188\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893187"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893187\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "544767"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"544767\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "901070"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"901070\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893185"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893185\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "862550"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"862550\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "841169"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"841169\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893189"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893189\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "900661"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"900661\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "893184"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"893184\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "BIOSPECIMEN|ID",
+                                        "841151"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"BIOSPECIMEN|ID\", \"841151\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ]
+                                },
+                                "to": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|ID",
+                "to": "BIOSPECIMEN|ANALYTE"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|COMPOSITION links to at least 1 BIOSPECIMEN|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|COMPOSITION",
+                "to": "BIOSPECIMEN|ID"
+            },
+            "is_applicable": false,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|COMPOSITION",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|ID",
+                "to": "BIOSPECIMEN|COMPOSITION"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|TISSUE_TYPE links to at least 1 BIOSPECIMEN|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|TISSUE_TYPE",
+                "to": "BIOSPECIMEN|ID"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|TISSUE_TYPE",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|ID",
+                "to": "BIOSPECIMEN|TISSUE_TYPE"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|ANATOMY_SITE links to at least 1 BIOSPECIMEN|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|ANATOMY_SITE",
+                "to": "BIOSPECIMEN|ID"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|ANATOMY_SITE",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|ID",
+                "to": "BIOSPECIMEN|ANATOMY_SITE"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|TUMOR_DESCRIPTOR links to at least 1 BIOSPECIMEN|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|TUMOR_DESCRIPTOR",
+                "to": "BIOSPECIMEN|ID"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|TUMOR_DESCRIPTOR",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|ID",
+                "to": "BIOSPECIMEN|TUMOR_DESCRIPTOR"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|EVENT_AGE_DAYS links to at least 1 BIOSPECIMEN|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|EVENT_AGE_DAYS",
+                "to": "BIOSPECIMEN|ID"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|EVENT_AGE_DAYS",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|ID",
+                "to": "BIOSPECIMEN|EVENT_AGE_DAYS"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|SPATIAL_DESCRIPTOR links to at least 1 BIOSPECIMEN|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|SPATIAL_DESCRIPTOR",
+                "to": "BIOSPECIMEN|ID"
+            },
+            "is_applicable": false,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|SPATIAL_DESCRIPTOR",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|ID",
+                "to": "BIOSPECIMEN|SPATIAL_DESCRIPTOR"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|SHIPMENT_ORIGIN links to at least 1 BIOSPECIMEN|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|SHIPMENT_ORIGIN",
+                "to": "BIOSPECIMEN|ID"
+            },
+            "is_applicable": false,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|SHIPMENT_ORIGIN",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|ID",
+                "to": "BIOSPECIMEN|SHIPMENT_ORIGIN"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|SHIPMENT_DATE links to at least 1 BIOSPECIMEN|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|SHIPMENT_DATE",
+                "to": "BIOSPECIMEN|ID"
+            },
+            "is_applicable": false,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|SHIPMENT_DATE",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|ID",
+                "to": "BIOSPECIMEN|SHIPMENT_DATE"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|CONCENTRATION_MG_PER_ML links to at least 1 BIOSPECIMEN|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|CONCENTRATION_MG_PER_ML",
+                "to": "BIOSPECIMEN|ID"
+            },
+            "is_applicable": false,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|CONCENTRATION_MG_PER_ML",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|ID",
+                "to": "BIOSPECIMEN|CONCENTRATION_MG_PER_ML"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|VOLUME_UL links to at least 1 BIOSPECIMEN|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|VOLUME_UL",
+                "to": "BIOSPECIMEN|ID"
+            },
+            "is_applicable": false,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|VOLUME_UL",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|ID",
+                "to": "BIOSPECIMEN|VOLUME_UL"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|SAMPLE_PROCUREMENT links to at least 1 BIOSPECIMEN|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|SAMPLE_PROCUREMENT",
+                "to": "BIOSPECIMEN|ID"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|SAMPLE_PROCUREMENT",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "BIOSPECIMEN|ID",
+                "to": "BIOSPECIMEN|SAMPLE_PROCUREMENT"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each GENOMIC_FILE|HARMONIZED links to at least 1 GENOMIC_FILE|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "GENOMIC_FILE|HARMONIZED",
+                "to": "GENOMIC_FILE|ID"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each GENOMIC_FILE|ID links to exactly 1 GENOMIC_FILE|HARMONIZED",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "GENOMIC_FILE|ID",
+                "to": "GENOMIC_FILE|HARMONIZED"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each GENOMIC_FILE|REFERENCE_GENOME links to at least 1 GENOMIC_FILE|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "GENOMIC_FILE|REFERENCE_GENOME",
+                "to": "GENOMIC_FILE|ID"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each GENOMIC_FILE|ID links to exactly 1 GENOMIC_FILE|REFERENCE_GENOME",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "GENOMIC_FILE|ID",
+                "to": "GENOMIC_FILE|REFERENCE_GENOME"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each GENOMIC_FILE|URL_LIST links to exactly 1 GENOMIC_FILE|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "GENOMIC_FILE|URL_LIST",
+                "to": "GENOMIC_FILE|ID"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each GENOMIC_FILE|ID links to exactly 1 GENOMIC_FILE|URL_LIST",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "GENOMIC_FILE|ID",
+                "to": "GENOMIC_FILE|URL_LIST"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each SEQUENCING|LIBRARY_NAME links to exactly 1 SEQUENCING|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": [
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "SEQUENCING|LIBRARY_NAME",
+                                        "10x"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"10x-841167\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"10x-841169\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"10x-841171\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"10x-841173\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"10x-862549\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"10x-862551\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"10x-893181\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"10x-893184\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"10x-893185\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"10x-893187\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"10x-893188\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"10x-900650\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"10x-900655\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"10x-901071\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|LIBRARY_NAME\", \"10x\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv"
+                                    ]
+                                },
+                                "to": [
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "10x-862551"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "10x-893181"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "10x-841167"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "10x-841169"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "10x-893184"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "10x-893185"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "10x-841173"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "10x-841171"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "10x-862549"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "10x-893187"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "10x-893188"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "10x-901071"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "10x-900650"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "10x-900655"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "SEQUENCING|LIBRARY_NAME",
+                                        "Smart Seq2"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"Smart Seq2-479109\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"Smart Seq2-544767\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"Smart Seq2-841145\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"Smart Seq2-841147\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"Smart Seq2-841149\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"Smart Seq2-841151\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"Smart Seq2-862547\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"Smart Seq2-862550\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"Smart Seq2-893182\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"Smart Seq2-893189\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"Smart Seq2-893192\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"Smart Seq2-893193\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"Smart Seq2-893195\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"Smart Seq2-893196\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"Smart Seq2-900656\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"Smart Seq2-900661\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"Smart Seq2-901070\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv",
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv"
+                                    ],
+                                    "json://{\"py/tuple\": [\"SEQUENCING|LIBRARY_NAME\", \"Smart Seq2\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv"
+                                    ]
+                                },
+                                "to": [
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "Smart Seq2-862550"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "Smart Seq2-893189"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "Smart Seq2-841145"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "Smart Seq2-893182"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "Smart Seq2-841147"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "Smart Seq2-479109"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "Smart Seq2-893192"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "Smart Seq2-893193"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "Smart Seq2-841151"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "Smart Seq2-841149"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "Smart Seq2-862547"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "Smart Seq2-893195"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "Smart Seq2-893196"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "Smart Seq2-544767"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "Smart Seq2-901070"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "Smart Seq2-900656"
+                                        ]
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            "SEQUENCING|ID",
+                                            "Smart Seq2-900661"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "SEQUENCING|LIBRARY_NAME",
+                "to": "SEQUENCING|ID"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each SEQUENCING|ID links to at most 1 SEQUENCING|LIBRARY_NAME",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "SEQUENCING|ID",
+                "to": "SEQUENCING|LIBRARY_NAME"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each SEQUENCING|STRATEGY links to at least 1 SEQUENCING|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "SEQUENCING|STRATEGY",
+                "to": "SEQUENCING|ID"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each SEQUENCING|ID links to exactly 1 SEQUENCING|STRATEGY",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "SEQUENCING|ID",
+                "to": "SEQUENCING|STRATEGY"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each SEQUENCING|PAIRED_END links to at least 1 SEQUENCING|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "SEQUENCING|PAIRED_END",
+                "to": "SEQUENCING|ID"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each SEQUENCING|ID links to exactly 1 SEQUENCING|PAIRED_END",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": [
+                            {
+                                "from": {
+                                    "py/tuple": [
+                                        "SEQUENCING|ID",
+                                        "Smart Seq2-841149"
+                                    ]
+                                },
+                                "locations": {
+                                    "json://{\"py/tuple\": [\"SEQUENCING|ID\", \"Smart Seq2-841149\"]}": [
+                                        "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv"
+                                    ]
+                                },
+                                "to": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "SEQUENCING|ID",
+                "to": "SEQUENCING|PAIRED_END"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each SEQUENCING|PLATFORM links to at least 1 SEQUENCING|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "SEQUENCING|PLATFORM",
+                "to": "SEQUENCING|ID"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each SEQUENCING|ID links to at most 1 SEQUENCING|PLATFORM",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "SEQUENCING|ID",
+                "to": "SEQUENCING|PLATFORM"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "Each SEQUENCING|INSTRUMENT links to at least 1 SEQUENCING|ID",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "SEQUENCING|INSTRUMENT",
+                "to": "SEQUENCING|ID"
+            },
+            "is_applicable": false,
+            "type": "relationship"
+        },
+        {
+            "description": "Each SEQUENCING|ID links to at most 1 SEQUENCING|INSTRUMENT",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {
+                "from": "SEQUENCING|ID",
+                "to": "SEQUENCING|INSTRUMENT"
+            },
+            "is_applicable": true,
+            "type": "relationship"
+        },
+        {
+            "description": "All resolved links are hierarchically direct",
+            "errors": {
+                "py/reduce": [
+                    {
+                        "py/type": "collections.deque"
+                    },
+                    {
+                        "py/tuple": []
+                    },
+                    null,
+                    {
+                        "py/tuple": []
+                    }
+                ]
+            },
+            "inputs": {},
+            "is_applicable": true,
+            "type": "gaps"
+        },
+        {
+            "description": "PARTICIPANT|RACE must be one of ['American Indian or Alaska Native', 'Asian', 'Black or African American', 'More Than One Race', 'Native Hawaiian or Other Pacific Islander', 'Other', 'White'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "PARTICIPANT|ENROLLMENT_AGE_DAYS must be a number x such that 0 <= x <= 32872.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "PARTICIPANT|ENROLLMENT_AGE|VALUE must be a number > 0.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "PARTICIPANT|ENROLLMENT_AGE|UNITS must be one of ['Days', 'Months', 'Years'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "PARTICIPANT|ETHNICITY must be one of ['Hispanic or Latino', 'Not Hispanic or Latino'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "PARTICIPANT|GENDER must be one of ['Female', 'Male', 'Other'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "PARTICIPANT|SPECIES must be one of ['Canis lupus familiaris', 'Homo sapiens'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "PARTICIPANT|CONSENT_TYPE must be one of ['DS-CHD', 'DS-CHD-IRB', 'DS-OBD-MDS', 'DS-OBDR-MDS', 'DS-OC-PUB-MDS', 'GRU', 'HMB-IRB', 'HMB-MDS'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "PARTICIPANT|LAST_CONTACT_AGE_DAYS must be a number x such that 0 <= x <= 32872.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "PARTICIPANT|LAST_CONTACT_AGE|VALUE must be a number > 0.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "PARTICIPANT|LAST_CONTACT_AGE|UNITS must be one of ['Days', 'Months', 'Years'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "BIOSPECIMEN|EVENT_AGE_DAYS must be a number x such that 0 <= x <= 32872.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": true,
+            "type": "attribute"
+        },
+        {
+            "description": "BIOSPECIMEN|EVENT_AGE|VALUE must be a number > 0.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "BIOSPECIMEN|EVENT_AGE|UNITS must be one of ['Days', 'Months', 'Years'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "BIOSPECIMEN|ANALYTE must be one of ['DNA', 'Other', 'RNA', 'Virtual'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": true,
+            "type": "attribute"
+        },
+        {
+            "description": "BIOSPECIMEN|CONCENTRATION_MG_PER_ML must be a number > 0.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "BIOSPECIMEN|SAMPLE_PROCUREMENT must be one of ['Autopsy', 'Biopsy', 'Blood Draw', 'Bone Marrow Aspiration', 'Gross Total Resection', 'Other', 'Subtotal Resection'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {
+                "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/biospecimen.tsv": [
+                    "Surgical Resections"
+                ]
+            },
+            "inputs": {},
+            "is_applicable": true,
+            "type": "attribute"
+        },
+        {
+            "description": "BIOSPECIMEN|SHIPMENT_DATE must be a valid representation of a Date or Datetime object.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "BIOSPECIMEN|VOLUME_UL must be a number > 0.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "DIAGNOSIS|EVENT_AGE_DAYS must be a number > 0.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "DIAGNOSIS|CATEGORY must be one of ['Cancer', 'Other', 'Structural Birth Defect'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "GENOMIC_FILE|AVAILABILITY must be one of ['Cold Storage', 'Immediate Download'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "GENOMIC_FILE|DATA_TYPE must be one of ['Aligned Reads', 'Aligned Reads Index', 'Expression', 'Gene Expression', 'Gene Fusions', 'Histology Images', 'Isoform Expression', 'Operation Reports', 'Other', 'Pathology Reports', 'Radiology Images', 'Radiology Reports', 'Simple Nucleotide Variations', 'Somatic Copy Number Variations', 'Somatic Structural Variations', 'Unaligned Reads', 'Variant Calls', 'Variant Calls Index', 'gVCF', 'gVCF Index'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "GENOMIC_FILE|SIZE must be a number >= 0.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "OUTCOME|EVENT_AGE_DAYS must be a number x such that 0 <= x <= 32872.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "OUTCOME|EVENT_AGE|VALUE must be a number > 0.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "OUTCOME|EVENT_AGE|UNITS must be one of ['Days', 'Months', 'Years'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "OUTCOME|DISEASE_RELATED must be one of ['No', 'Yes'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "OUTCOME|VITAL_STATUS must be one of ['Alive', 'Deceased'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "PHENOTYPE|EVENT_AGE_DAYS must be a number x such that 0 <= x <= 32872.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "PHENOTYPE|EVENT_AGE|VALUE must be a number > 0.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "PHENOTYPE|EVENT_AGE|UNITS must be one of ['Days', 'Months', 'Years'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "PHENOTYPE|OBSERVED must be one of ['Negative', 'Positive'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "READ_GROUP|PAIRED_END must be one of ['1', '2'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "READ_GROUP|LANE_NUMBER must be a number > 0.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "READ_GROUP|QUALITY_SCALE must be one of ['Illumina13', 'Illumina15', 'Illumina18', 'Sanger', 'Solexa'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "SEQUENCING|DATE must be a valid representation of a Date or Datetime object.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "SEQUENCING|STRATEGY must be one of ['Linked-Read WGS (10x Chromium)', 'Other', 'RNA-Seq', 'Targeted Sequencing', 'WGS', 'WXS', 'miRNA-Seq'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {
+                "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv": [
+                    "Single Cell RNA-Seq"
+                ]
+            },
+            "inputs": {},
+            "is_applicable": true,
+            "type": "attribute"
+        },
+        {
+            "description": "SEQUENCING|LIBRARY_STRAND must be one of ['First Stranded', 'Other', 'Second Stranded', 'Unstranded'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "SEQUENCING|MAX_INSERT_SIZE must be a number > 0.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "SEQUENCING|MEAN_DEPTH must be a number > 0.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "SEQUENCING|MEAN_INSERT_SIZE must be a number > 0.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "SEQUENCING|MEAN_READ_LENGTH must be a number > 0.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "SEQUENCING|PAIRED_END must be one of ['False', 'True'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": true,
+            "type": "attribute"
+        },
+        {
+            "description": "SEQUENCING|PLATFORM must be one of ['Complete Genomics', 'Illumina', 'Ion Torrent', 'LS454', 'Other', 'PacBio', 'SOLiD'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": true,
+            "type": "attribute"
+        },
+        {
+            "description": "SEQUENCING|TOTAL_READS must be a number > 0.",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        },
+        {
+            "description": "STUDY_FILE|AVAILABILITY must be one of ['Cold Storage', 'Immediate Download'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']",
+            "errors": {},
+            "inputs": {},
+            "is_applicable": false,
+            "type": "attribute"
+        }
+    ]
+}

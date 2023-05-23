@@ -1,0 +1,5 @@
+{
+    "biospecimen.py": "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/biospecimen.tsv",
+    "genomic_data.py": "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv",
+    "sequencing.py": "/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv"
+}

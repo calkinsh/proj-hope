@@ -1,0 +1,162 @@
+type	result	description	errors	locations	details
+relationship	did not run	Each FAMILY|ID links to at least 1 PARTICIPANT|ID			
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('893195', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893195`'}}	{'893195': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('841173', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`841173`'}}	{'841173': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('900650', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/biospecimen.tsv': {'`900650`'}, '/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`900650`'}}	{'900650': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('841171', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`841171`'}}	{'841171': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('893181', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893181`'}}	{'893181': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('893193', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893193`'}}	{'893193': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('841147', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`841147`'}}	{'841147': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('893182', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893182`'}}	{'893182': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('862551', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`862551`'}}	{'862551': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('893192', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893192`'}}	{'893192': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('479109', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`479109`'}}	{'479109': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('862547', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`862547`'}}	{'862547': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('900656', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`900656`'}}	{'900656': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('841145', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`841145`'}}	{'841145': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('862549', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`862549`'}}	{'862549': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('893196', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893196`'}}	{'893196': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('841167', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`841167`'}}	{'841167': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('893188', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893188`'}}	{'893188': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('901071', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/biospecimen.tsv': {'`901071`'}, '/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`901071`'}}	{'901071': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('893187', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893187`'}}	{'893187': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('544767', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`544767`'}}	{'544767': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('900655', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/biospecimen.tsv': {'`900655`'}, '/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`900655`'}}	{'900655': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('901070', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`901070`'}}	{'901070': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('893185', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893185`'}}	{'893185': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('862550', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`862550`'}}	{'862550': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('841169', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`841169`'}}	{'841169': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('893189', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893189`'}}	{'893189': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('900661', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`900661`'}}	{'900661': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('893184', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893184`'}}	{'893184': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 PARTICIPANT|ID	('841151', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`841151`'}}	{'841151': 'BIOSPECIMEN|ID'}
+relationship	did not run	Each PARTICIPANT|ID links to at least 1 BIOSPECIMEN|ID			
+relationship	success	Each GENOMIC_FILE|ID links to exactly 1 SEQUENCING|ID			
+relationship	fail	Each SEQUENCING|ID links to at least 1 GENOMIC_FILE|ID	('Smart Seq2-841149', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv': {'`Smart Seq2-841149`'}}	{'Smart Seq2-841149': 'SEQUENCING|ID'}
+relationship	success	Each GENOMIC_FILE|ID links to exactly 1 BIOSPECIMEN|ID			
+relationship	success	Each BIOSPECIMEN|ID links to at least 1 GENOMIC_FILE|ID			
+relationship	did not run	Each PARTICIPANT|GENDER links to at least 1 PARTICIPANT|ID			
+relationship	did not run	Each PARTICIPANT|ID links to at most 1 PARTICIPANT|GENDER			
+relationship	did not run	Each PARTICIPANT|ETHNICITY links to at least 1 PARTICIPANT|ID			
+relationship	did not run	Each PARTICIPANT|ID links to at most 1 PARTICIPANT|ETHNICITY			
+relationship	did not run	Each PARTICIPANT|RACE links to at least 1 PARTICIPANT|ID			
+relationship	did not run	Each PARTICIPANT|ID links to at most 1 PARTICIPANT|RACE			
+relationship	did not run	Each PARTICIPANT|SPECIES links to at least 1 PARTICIPANT|ID			
+relationship	did not run	Each PARTICIPANT|ID links to at most 1 PARTICIPANT|SPECIES			
+relationship	did not run	Each PARTICIPANT|ENROLLMENT_AGE_DAYS links to at least 1 PARTICIPANT|ID			
+relationship	did not run	Each PARTICIPANT|ID links to at most 1 PARTICIPANT|ENROLLMENT_AGE_DAYS			
+relationship	success	Each BIOSPECIMEN|ANALYTE links to at least 1 BIOSPECIMEN|ID			
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('893195', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893195`'}}	{'893195': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('841173', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`841173`'}}	{'841173': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('841171', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`841171`'}}	{'841171': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('893181', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893181`'}}	{'893181': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('893193', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893193`'}}	{'893193': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('841147', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`841147`'}}	{'841147': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('893182', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893182`'}}	{'893182': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('862551', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`862551`'}}	{'862551': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('893192', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893192`'}}	{'893192': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('479109', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`479109`'}}	{'479109': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('862547', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`862547`'}}	{'862547': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('900656', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`900656`'}}	{'900656': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('841145', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`841145`'}}	{'841145': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('862549', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`862549`'}}	{'862549': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('893196', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893196`'}}	{'893196': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('841167', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`841167`'}}	{'841167': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('893188', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893188`'}}	{'893188': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('893187', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893187`'}}	{'893187': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('544767', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`544767`'}}	{'544767': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('901070', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`901070`'}}	{'901070': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('893185', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893185`'}}	{'893185': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('862550', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`862550`'}}	{'862550': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('841169', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`841169`'}}	{'841169': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('893189', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893189`'}}	{'893189': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('900661', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`900661`'}}	{'900661': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('893184', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`893184`'}}	{'893184': 'BIOSPECIMEN|ID'}
+relationship	fail	Each BIOSPECIMEN|ID links to exactly 1 BIOSPECIMEN|ANALYTE	('841151', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`841151`'}}	{'841151': 'BIOSPECIMEN|ID'}
+relationship	did not run	Each BIOSPECIMEN|COMPOSITION links to at least 1 BIOSPECIMEN|ID			
+relationship	success	Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|COMPOSITION			
+relationship	success	Each BIOSPECIMEN|TISSUE_TYPE links to at least 1 BIOSPECIMEN|ID			
+relationship	success	Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|TISSUE_TYPE			
+relationship	success	Each BIOSPECIMEN|ANATOMY_SITE links to at least 1 BIOSPECIMEN|ID			
+relationship	success	Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|ANATOMY_SITE			
+relationship	success	Each BIOSPECIMEN|TUMOR_DESCRIPTOR links to at least 1 BIOSPECIMEN|ID			
+relationship	success	Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|TUMOR_DESCRIPTOR			
+relationship	success	Each BIOSPECIMEN|EVENT_AGE_DAYS links to at least 1 BIOSPECIMEN|ID			
+relationship	success	Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|EVENT_AGE_DAYS			
+relationship	did not run	Each BIOSPECIMEN|SPATIAL_DESCRIPTOR links to at least 1 BIOSPECIMEN|ID			
+relationship	success	Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|SPATIAL_DESCRIPTOR			
+relationship	did not run	Each BIOSPECIMEN|SHIPMENT_ORIGIN links to at least 1 BIOSPECIMEN|ID			
+relationship	success	Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|SHIPMENT_ORIGIN			
+relationship	did not run	Each BIOSPECIMEN|SHIPMENT_DATE links to at least 1 BIOSPECIMEN|ID			
+relationship	success	Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|SHIPMENT_DATE			
+relationship	did not run	Each BIOSPECIMEN|CONCENTRATION_MG_PER_ML links to at least 1 BIOSPECIMEN|ID			
+relationship	success	Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|CONCENTRATION_MG_PER_ML			
+relationship	did not run	Each BIOSPECIMEN|VOLUME_UL links to at least 1 BIOSPECIMEN|ID			
+relationship	success	Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|VOLUME_UL			
+relationship	success	Each BIOSPECIMEN|SAMPLE_PROCUREMENT links to at least 1 BIOSPECIMEN|ID			
+relationship	success	Each BIOSPECIMEN|ID links to at most 1 BIOSPECIMEN|SAMPLE_PROCUREMENT			
+relationship	success	Each GENOMIC_FILE|HARMONIZED links to at least 1 GENOMIC_FILE|ID			
+relationship	success	Each GENOMIC_FILE|ID links to exactly 1 GENOMIC_FILE|HARMONIZED			
+relationship	success	Each GENOMIC_FILE|REFERENCE_GENOME links to at least 1 GENOMIC_FILE|ID			
+relationship	success	Each GENOMIC_FILE|ID links to exactly 1 GENOMIC_FILE|REFERENCE_GENOME			
+relationship	success	Each GENOMIC_FILE|URL_LIST links to exactly 1 GENOMIC_FILE|ID			
+relationship	success	Each GENOMIC_FILE|ID links to exactly 1 GENOMIC_FILE|URL_LIST			
+relationship	fail	Each SEQUENCING|LIBRARY_NAME links to exactly 1 SEQUENCING|ID	('10x', ['10x-862551', '10x-893181', '10x-841167', '10x-841169', '10x-893184', '10x-893185', '10x-841173', '10x-841171', '10x-862549', '10x-893187', '10x-893188', '10x-901071', '10x-900650', '10x-900655'])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv': {'`10x-893187`', '`10x-900655`', '`10x-893185`', '`10x-893188`', '`10x-862551`', '`10x-841173`', '`10x-893184`', '`10x-841167`', '`10x-893181`', '`10x`', '`10x-900650`', '`10x-841169`', '`10x-841171`', '`10x-862549`', '`10x-901071`'}, '/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`10x-893187`', '`10x-900655`', '`10x-893185`', '`10x-893188`', '`10x-862551`', '`10x-841173`', '`10x-893184`', '`10x-841167`', '`10x-893181`', '`10x-900650`', '`10x-841169`', '`10x-841171`', '`10x-862549`', '`10x-901071`'}}	{'10x': 'SEQUENCING|LIBRARY_NAME', '10x-862551': 'SEQUENCING|ID', '10x-893181': 'SEQUENCING|ID', '10x-841167': 'SEQUENCING|ID', '10x-841169': 'SEQUENCING|ID', '10x-893184': 'SEQUENCING|ID', '10x-893185': 'SEQUENCING|ID', '10x-841173': 'SEQUENCING|ID', '10x-841171': 'SEQUENCING|ID', '10x-862549': 'SEQUENCING|ID', '10x-893187': 'SEQUENCING|ID', '10x-893188': 'SEQUENCING|ID', '10x-901071': 'SEQUENCING|ID', '10x-900650': 'SEQUENCING|ID', '10x-900655': 'SEQUENCING|ID'}
+relationship	fail	Each SEQUENCING|LIBRARY_NAME links to exactly 1 SEQUENCING|ID	('Smart Seq2', ['Smart Seq2-862550', 'Smart Seq2-893189', 'Smart Seq2-841145', 'Smart Seq2-893182', 'Smart Seq2-841147', 'Smart Seq2-479109', 'Smart Seq2-893192', 'Smart Seq2-893193', 'Smart Seq2-841151', 'Smart Seq2-841149', 'Smart Seq2-862547', 'Smart Seq2-893195', 'Smart Seq2-893196', 'Smart Seq2-544767', 'Smart Seq2-901070', 'Smart Seq2-900656', 'Smart Seq2-900661'])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv': {'`Smart Seq2-893195`', '`Smart Seq2-893196`', '`Smart Seq2-841151`', '`Smart Seq2-900656`', '`Smart Seq2-841149`', '`Smart Seq2-479109`', '`Smart Seq2`', '`Smart Seq2-841147`', '`Smart Seq2-893192`', '`Smart Seq2-893189`', '`Smart Seq2-862547`', '`Smart Seq2-901070`', '`Smart Seq2-893193`', '`Smart Seq2-841145`', '`Smart Seq2-893182`', '`Smart Seq2-862550`', '`Smart Seq2-544767`', '`Smart Seq2-900661`'}, '/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/genomic_data.tsv': {'`Smart Seq2-893195`', '`Smart Seq2-893196`', '`Smart Seq2-841151`', '`Smart Seq2-900656`', '`Smart Seq2-479109`', '`Smart Seq2-893192`', '`Smart Seq2-841147`', '`Smart Seq2-862547`', '`Smart Seq2-893189`', '`Smart Seq2-901070`', '`Smart Seq2-893193`', '`Smart Seq2-841145`', '`Smart Seq2-893182`', '`Smart Seq2-862550`', '`Smart Seq2-544767`', '`Smart Seq2-900661`'}}	{'Smart Seq2': 'SEQUENCING|LIBRARY_NAME', 'Smart Seq2-862550': 'SEQUENCING|ID', 'Smart Seq2-893189': 'SEQUENCING|ID', 'Smart Seq2-841145': 'SEQUENCING|ID', 'Smart Seq2-893182': 'SEQUENCING|ID', 'Smart Seq2-841147': 'SEQUENCING|ID', 'Smart Seq2-479109': 'SEQUENCING|ID', 'Smart Seq2-893192': 'SEQUENCING|ID', 'Smart Seq2-893193': 'SEQUENCING|ID', 'Smart Seq2-841151': 'SEQUENCING|ID', 'Smart Seq2-841149': 'SEQUENCING|ID', 'Smart Seq2-862547': 'SEQUENCING|ID', 'Smart Seq2-893195': 'SEQUENCING|ID', 'Smart Seq2-893196': 'SEQUENCING|ID', 'Smart Seq2-544767': 'SEQUENCING|ID', 'Smart Seq2-901070': 'SEQUENCING|ID', 'Smart Seq2-900656': 'SEQUENCING|ID', 'Smart Seq2-900661': 'SEQUENCING|ID'}
+relationship	success	Each SEQUENCING|ID links to at most 1 SEQUENCING|LIBRARY_NAME			
+relationship	success	Each SEQUENCING|STRATEGY links to at least 1 SEQUENCING|ID			
+relationship	success	Each SEQUENCING|ID links to exactly 1 SEQUENCING|STRATEGY			
+relationship	success	Each SEQUENCING|PAIRED_END links to at least 1 SEQUENCING|ID			
+relationship	fail	Each SEQUENCING|ID links to exactly 1 SEQUENCING|PAIRED_END	('Smart Seq2-841149', [])	{'/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv': {'`Smart Seq2-841149`'}}	{'Smart Seq2-841149': 'SEQUENCING|ID'}
+relationship	success	Each SEQUENCING|PLATFORM links to at least 1 SEQUENCING|ID			
+relationship	success	Each SEQUENCING|ID links to at most 1 SEQUENCING|PLATFORM			
+relationship	did not run	Each SEQUENCING|INSTRUMENT links to at least 1 SEQUENCING|ID			
+relationship	success	Each SEQUENCING|ID links to at most 1 SEQUENCING|INSTRUMENT			
+gaps	success	All resolved links are hierarchically direct			
+attribute	did not run	PARTICIPANT|RACE must be one of ['American Indian or Alaska Native', 'Asian', 'Black or African American', 'More Than One Race', 'Native Hawaiian or Other Pacific Islander', 'Other', 'White'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	did not run	PARTICIPANT|ENROLLMENT_AGE_DAYS must be a number x such that 0 <= x <= 32872.			
+attribute	did not run	PARTICIPANT|ENROLLMENT_AGE|VALUE must be a number > 0.			
+attribute	did not run	PARTICIPANT|ENROLLMENT_AGE|UNITS must be one of ['Days', 'Months', 'Years'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	did not run	PARTICIPANT|ETHNICITY must be one of ['Hispanic or Latino', 'Not Hispanic or Latino'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	did not run	PARTICIPANT|GENDER must be one of ['Female', 'Male', 'Other'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	did not run	PARTICIPANT|SPECIES must be one of ['Canis lupus familiaris', 'Homo sapiens'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	did not run	PARTICIPANT|CONSENT_TYPE must be one of ['DS-CHD', 'DS-CHD-IRB', 'DS-OBD-MDS', 'DS-OBDR-MDS', 'DS-OC-PUB-MDS', 'GRU', 'HMB-IRB', 'HMB-MDS'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	did not run	PARTICIPANT|LAST_CONTACT_AGE_DAYS must be a number x such that 0 <= x <= 32872.			
+attribute	did not run	PARTICIPANT|LAST_CONTACT_AGE|VALUE must be a number > 0.			
+attribute	did not run	PARTICIPANT|LAST_CONTACT_AGE|UNITS must be one of ['Days', 'Months', 'Years'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	success	BIOSPECIMEN|EVENT_AGE_DAYS must be a number x such that 0 <= x <= 32872.			
+attribute	did not run	BIOSPECIMEN|EVENT_AGE|VALUE must be a number > 0.			
+attribute	did not run	BIOSPECIMEN|EVENT_AGE|UNITS must be one of ['Days', 'Months', 'Years'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	success	BIOSPECIMEN|ANALYTE must be one of ['DNA', 'Other', 'RNA', 'Virtual'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	did not run	BIOSPECIMEN|CONCENTRATION_MG_PER_ML must be a number > 0.			
+attribute	fail	BIOSPECIMEN|SAMPLE_PROCUREMENT must be one of ['Autopsy', 'Biopsy', 'Blood Draw', 'Bone Marrow Aspiration', 'Gross Total Resection', 'Other', 'Subtotal Resection'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']	{'Surgical Resections'}	/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/biospecimen.tsv	
+attribute	did not run	BIOSPECIMEN|SHIPMENT_DATE must be a valid representation of a Date or Datetime object.			
+attribute	did not run	BIOSPECIMEN|VOLUME_UL must be a number > 0.			
+attribute	did not run	DIAGNOSIS|EVENT_AGE_DAYS must be a number > 0.			
+attribute	did not run	DIAGNOSIS|CATEGORY must be one of ['Cancer', 'Other', 'Structural Birth Defect'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	did not run	GENOMIC_FILE|AVAILABILITY must be one of ['Cold Storage', 'Immediate Download'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	did not run	GENOMIC_FILE|DATA_TYPE must be one of ['Aligned Reads', 'Aligned Reads Index', 'Expression', 'Gene Expression', 'Gene Fusions', 'Histology Images', 'Isoform Expression', 'Operation Reports', 'Other', 'Pathology Reports', 'Radiology Images', 'Radiology Reports', 'Simple Nucleotide Variations', 'Somatic Copy Number Variations', 'Somatic Structural Variations', 'Unaligned Reads', 'Variant Calls', 'Variant Calls Index', 'gVCF', 'gVCF Index'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	did not run	GENOMIC_FILE|SIZE must be a number >= 0.			
+attribute	did not run	OUTCOME|EVENT_AGE_DAYS must be a number x such that 0 <= x <= 32872.			
+attribute	did not run	OUTCOME|EVENT_AGE|VALUE must be a number > 0.			
+attribute	did not run	OUTCOME|EVENT_AGE|UNITS must be one of ['Days', 'Months', 'Years'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	did not run	OUTCOME|DISEASE_RELATED must be one of ['No', 'Yes'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	did not run	OUTCOME|VITAL_STATUS must be one of ['Alive', 'Deceased'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	did not run	PHENOTYPE|EVENT_AGE_DAYS must be a number x such that 0 <= x <= 32872.			
+attribute	did not run	PHENOTYPE|EVENT_AGE|VALUE must be a number > 0.			
+attribute	did not run	PHENOTYPE|EVENT_AGE|UNITS must be one of ['Days', 'Months', 'Years'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	did not run	PHENOTYPE|OBSERVED must be one of ['Negative', 'Positive'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	did not run	READ_GROUP|PAIRED_END must be one of ['1', '2'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	did not run	READ_GROUP|LANE_NUMBER must be a number > 0.			
+attribute	did not run	READ_GROUP|QUALITY_SCALE must be one of ['Illumina13', 'Illumina15', 'Illumina18', 'Sanger', 'Solexa'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	did not run	SEQUENCING|DATE must be a valid representation of a Date or Datetime object.			
+attribute	fail	SEQUENCING|STRATEGY must be one of ['Linked-Read WGS (10x Chromium)', 'Other', 'RNA-Seq', 'Targeted Sequencing', 'WGS', 'WXS', 'miRNA-Seq'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']	{'Single Cell RNA-Seq'}	/Users/calkinsh/Documents/kf_ingests/project_hope/initial_ingest_files_biospecimen/output/ExtractStage/sequencing.tsv	
+attribute	did not run	SEQUENCING|LIBRARY_STRAND must be one of ['First Stranded', 'Other', 'Second Stranded', 'Unstranded'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	did not run	SEQUENCING|MAX_INSERT_SIZE must be a number > 0.			
+attribute	did not run	SEQUENCING|MEAN_DEPTH must be a number > 0.			
+attribute	did not run	SEQUENCING|MEAN_INSERT_SIZE must be a number > 0.			
+attribute	did not run	SEQUENCING|MEAN_READ_LENGTH must be a number > 0.			
+attribute	success	SEQUENCING|PAIRED_END must be one of ['False', 'True'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	success	SEQUENCING|PLATFORM must be one of ['Complete Genomics', 'Illumina', 'Ion Torrent', 'LS454', 'Other', 'PacBio', 'SOLiD'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			
+attribute	did not run	SEQUENCING|TOTAL_READS must be a number > 0.			
+attribute	did not run	STUDY_FILE|AVAILABILITY must be one of ['Cold Storage', 'Immediate Download'] or ['', 'Not Able to Provide', 'Not Allowed To Collect', 'Not Applicable', 'Not Available', 'Not Reported', 'Reported Unknown']			

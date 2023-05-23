@@ -1,0 +1,32 @@
+	SEQUENCING|ID	SEQUENCING|STRATEGY	SEQUENCING|LIBRARY_NAME	SEQUENCING|CENTER|TARGET_SERVICE_ID	SEQUENCING|PLATFORM
+0	Smart Seq2-862550	Single Cell RNA-Seq	Smart Seq2	SC_BJW95TMY	Illumina
+1	10x-862551	Single Cell RNA-Seq	10x	SC_BJW95TMY	Illumina
+2	10x-893181	Single Cell RNA-Seq	10x	SC_BJW95TMY	Illumina
+3	Smart Seq2-893189	Single Cell RNA-Seq	Smart Seq2	SC_BJW95TMY	Illumina
+4	10x-841167	Single Cell RNA-Seq	10x	SC_BJW95TMY	Illumina
+5	Smart Seq2-841145	Single Cell RNA-Seq	Smart Seq2	SC_BJW95TMY	Illumina
+6	Smart Seq2-893182	Single Cell RNA-Seq	Smart Seq2	SC_BJW95TMY	Illumina
+7	Smart Seq2-841147	Single Cell RNA-Seq	Smart Seq2	SC_BJW95TMY	Illumina
+8	10x-841169	Single Cell RNA-Seq	10x	SC_BJW95TMY	Illumina
+9	Smart Seq2-479109	Single Cell RNA-Seq	Smart Seq2	SC_BJW95TMY	Illumina
+10	10x-893184	Single Cell RNA-Seq	10x	SC_BJW95TMY	Illumina
+11	Smart Seq2-893192	Single Cell RNA-Seq	Smart Seq2	SC_BJW95TMY	Illumina
+12	10x-893185	Single Cell RNA-Seq	10x	SC_BJW95TMY	Illumina
+13	Smart Seq2-893193	Single Cell RNA-Seq	Smart Seq2	SC_BJW95TMY	Illumina
+14	Smart Seq2-841151	Single Cell RNA-Seq	Smart Seq2	SC_BJW95TMY	Illumina
+15	10x-841173	Single Cell RNA-Seq	10x	SC_BJW95TMY	Illumina
+16	Smart Seq2-841149	Single Cell RNA-Seq	Smart Seq2	SC_BJW95TMY	Illumina
+17	10x-841171	Single Cell RNA-Seq	10x	SC_BJW95TMY	Illumina
+18	Smart Seq2-862547	Single Cell RNA-Seq	Smart Seq2	SC_BJW95TMY	Illumina
+19	10x-862549	Single Cell RNA-Seq	10x	SC_BJW95TMY	Illumina
+20	10x-893187	Single Cell RNA-Seq	10x	SC_BJW95TMY	Illumina
+21	Smart Seq2-893195	Single Cell RNA-Seq	Smart Seq2	SC_BJW95TMY	Illumina
+22	10x-893188	Single Cell RNA-Seq	10x	SC_BJW95TMY	Illumina
+23	Smart Seq2-893196	Single Cell RNA-Seq	Smart Seq2	SC_BJW95TMY	Illumina
+24	Smart Seq2-544767	Single Cell RNA-Seq	Smart Seq2	SC_BJW95TMY	Illumina
+25	Smart Seq2-901070	Single Cell RNA-Seq	Smart Seq2	SC_BJW95TMY	Illumina
+26	10x-901071	Single Cell RNA-Seq	10x	SC_BJW95TMY	Illumina
+27	Smart Seq2-900656	Single Cell RNA-Seq	Smart Seq2	SC_BJW95TMY	Illumina
+28	10x-900650	Single Cell RNA-Seq	10x	SC_BJW95TMY	Illumina
+29	Smart Seq2-900661	Single Cell RNA-Seq	Smart Seq2	SC_BJW95TMY	Illumina
+30	10x-900655	Single Cell RNA-Seq	10x		Illumina
